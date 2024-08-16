@@ -1,0 +1,54 @@
+.title-customer{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*  */
+.parent {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.iris-frame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 16px;
+    background: linear-gradient(135deg, #5D5FEF 60%, transparent 50%);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: relative;
+}
+
+.iris-frame p {
+    color: white;
+    width: 45%;
+}
+
+.iris-frame h1 {
+    color: white;
+    width: 45%;
+    font-size: 22px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.logo-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.8;
+    z-index: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}

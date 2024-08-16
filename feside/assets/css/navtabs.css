@@ -1,0 +1,94 @@
+/* index.css */
+
+/* Remove default Bootstrap styles for nav-tabs */
+.custom-tabs {
+    border: none;
+    /* Remove the border around tabs */
+    margin: 0;
+    /* Remove margin from the tab container */
+    padding: 0;
+    /* Remove padding from the tab container */
+}
+
+/* Style the nav links */
+.custom-tabs .nav-links {
+    border: none;
+    /* Remove default borders */
+    padding: 10px 15px;
+    /* Set padding for links */
+    color: #007bff;
+    /* Default link color */
+    text-decoration: none;
+    /* Remove underline */
+    position: relative;
+    /* Positioning for the underline */
+}
+
+/* Active tab styles */
+.custom-tabs .nav-links.active {
+    color: #0056b3;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    /* Color for the active tab */
+}
+/* .nav-links.active::before{
+} */
+/* Underline for active tab */
+.custom-tabs .nav-links.active::after {
+    content: "";
+    /* Create a pseudo-element for the underline */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    /* Position it just below the link */
+    height: 2px;
+    /* Height of the underline */
+    background-color: #0056b3;
+    /* Color of the underline */
+}
+
+/* Hover effect for tabs */
+.custom-tabs .nav-links:hover {
+    color: #0056b3;
+    /* Change color on hover */
+}
+
+/* Style for tab content */
+.tab-content {
+    padding: 15px;
+    /* Optional: Add some padding for the content */
+    border: none;
+    /* Remove border */
+    margin-top: 1;
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+    
+}
+
+/* Remove any additional margin from the tab-pane */
+.tab-pane {
+    margin: 0;
+    /* Ensure no margin */
+}
+
+/* Remove padding around body */
+.body_page {
+    padding: 0;
+    /* No padding around body */
+}
+
+/* Remove top margin from the nav */
+.nav {
+    margin-bottom: 0;
+    /* Remove margin below nav */
+}
+
+.nav-item.nocontent{
+    width: 70%;
+}
+.nav-item.nocontent a{
+    color: rgba(128, 128, 128, 0.774);
+    padding-left: 10px;
+}
